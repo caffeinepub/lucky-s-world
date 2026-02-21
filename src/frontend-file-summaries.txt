@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the layout with hero, welcome, showcase, closing sections and footer.",
+  "frontend/src/components/HeroSection.tsx": "Hero section displaying the bilingual title \"Lucky's World (लकी की दुनिया)\" with gradient background and decorative elements.",
+  "frontend/src/components/ProfilePhoto.tsx": "Profile photo component displaying Lucky's image with decorative border, gradient glow, and star badge.",
+  "frontend/src/components/WelcomeSection.tsx": "Welcome section with profile photo and Hindi introduction text in a two-column responsive layout.",
+  "frontend/src/components/ShowcaseSection.tsx": "Showcase section displaying three categories (thoughts, experiences, interests) in card format with bilingual content.",
+  "frontend/src/components/ClosingSection.tsx": "Closing section with Hindi message encouraging exploration, styled with warm gradient background.",
+  "frontend/src/components/Footer.tsx": "Footer component with caffeine.ai attribution, love icon, and copyright notice.",
+  "frontend/src/index.css": "Global styles with warm Indian-inspired color palette (orange, yellow, red), Devanagari font support, and custom utility classes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with warm color tokens, Poppins and Noto Sans Devanagari fonts, and extended theme settings.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future backend query hooks using React Query."
+}

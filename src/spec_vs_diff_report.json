@@ -1,0 +1,57 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-20T05:10:48.812Z",
+  "summary": "All requirements have been successfully implemented. The personal website features a bilingual hero section, Hindi welcome and closing messages, profile photo display, showcase section for thoughts/experiences/interests, and a warm Indian-inspired design theme with proper Devanagari font support.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Footer component with caffeine.ai attribution and copyright notice",
+      "reason": "Footer component was not requested in any requirement. The BuildRequest explicitly states no authentication or backend persistence, and does not mention footer attribution or copyright notices.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/App.tsx"
+      ]
+    },
+    {
+      "description": "Internet Identity authentication hooks and provider setup",
+      "reason": "BuildRequest explicitly lists 'Authentication or user login system' as a non-goal, yet authentication infrastructure (useInternetIdentity, InternetIdentityProvider, useActor) was implemented.",
+      "evidence": [
+        "frontend/src/hooks/useInternetIdentity.ts",
+        "frontend/src/hooks/useActor.ts",
+        "frontend/src/main.tsx"
+      ]
+    },
+    {
+      "description": "Backend actor configuration and query infrastructure",
+      "reason": "BuildRequest non-goals explicitly state 'Backend data persistence for posts or content', yet backend integration hooks were added.",
+      "evidence": [
+        "backend/main.mo",
+        "frontend/src/hooks/useActor.ts",
+        "frontend/src/hooks/useQueries.ts"
+      ]
+    }
+  ],
+  "confidence": 0.95,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/ClosingSection.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/ProfilePhoto.tsx",
+    "frontend/src/components/ShowcaseSection.tsx",
+    "frontend/src/components/WelcomeSection.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "kind": "build_request",
+  "title": "Create Lucky's World personal website with bilingual content",
+  "projectName": "Lucky's World",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section displaying the bilingual title 'Lucky's World (लकी की दुनिया)' with prominent typography",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "TITLE = Lucky's World (लकी की दुनिया)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Title displays both English and Hindi text",
+        "Typography is prominent and visually appealing",
+        "Hero section is the first element visitors see"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Display the welcome message in Hindi: 'नमस्ते! स्वागत है मेरी डिजिटल दुनिया में। मैं हूँ लकी, और यह वेबसाइट मेरे विचारों, अनुभवों और उन चीज़ों का एक संग्रह है जिन्हें मैं प्यार करता हूँ। यहाँ आपको मेरी ज़िंदगी की छोटी-छोटी खुशियाँ और बड़े-बड़े सपने देखने को मिलेंगे।'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "नमस्ते! स्वागत है मेरी डिजिटल दुनिया में..."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Welcome message displays in Hindi with proper font support",
+        "Text is readable and well-formatted",
+        "Message appears prominently on the page"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Add a closing message in Hindi: 'आशा है कि आपको यहाँ आकर कुछ नया और दिलचस्प मिलेगा। चलिए, साथ मिलकर मेरी इस दुनिया को एक्सप्लोर करते हैं!'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "आशा है कि आपको यहाँ आकर कुछ नया और दिलचस्प मिलेगा..."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Closing message displays in Hindi",
+        "Message is positioned logically after the welcome section",
+        "Text maintains consistent styling with the rest of the content"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a prominent photo display area for Lucky's profile photo",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "इस इंट्रोडक्शन के साथ अपनी एक मस्त और कॉन्फिडेंट फोटो ज़रूर लगाइएगा"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Photo area is visually prominent and well-positioned",
+        "Image displays with appropriate sizing and styling",
+        "Photo integrates seamlessly with the introduction text"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a showcase section for displaying thoughts, experiences, and interests",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "यह वेबसाइट मेरे विचारों, अनुभवों और उन चीज़ों का एक संग्रह है"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section clearly delineates different categories (thoughts, experiences, interests)",
+        "Layout is organized and easy to navigate",
+        "Content areas are ready for future additions"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Apply a warm, welcoming design theme with culturally appropriate aesthetics that reflect Indian design sensibilities and personal expression",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette evokes warmth and approachability",
+        "Typography supports both English and Hindi scripts elegantly",
+        "Overall design feels personal and authentic",
+        "Visual style is consistent across all sections"
+      ]
+    }
+  ],
+  "constraints": [
+    "Must support proper rendering of Hindi (Devanagari) script",
+    "Design must accommodate bilingual content throughout"
+  ],
+  "nonGoals": [
+    "Authentication or user login system",
+    "Backend data persistence for posts or content",
+    "Multi-language switching functionality",
+    "Content management system"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional confident portrait photo of Lucky for profile display (lucky-profile.dim_400x400.png)"
+    ],
+    "edits": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as the backend entry point with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting six implemented features including hero section, Hindi welcome/closing messages, profile photo, showcase section, and warm Indian-inspired design theme.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend components describing the bilingual Lucky's World personal website with Hindi content and warm Indian design aesthetics.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm color palette and light/dark theme support using oklch color space.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx for the Lucky's World application.",
+  "frontend/src/App.tsx": "Main React component composing the page layout with hero, welcome, showcase, closing sections and footer.",
+  "frontend/src/components/ClosingSection.tsx": "Closing section component with Hindi message encouraging exploration, featuring gradient background and decorative star icon.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying caffeine.ai attribution with UTM tracking, heart icon, and copyright notice.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with bilingual title 'Lucky's World / लकी की दुनिया' on gradient background with decorative SVG pattern and sparkles icon.",
+  "frontend/src/components/ProfilePhoto.tsx": "Profile photo component displaying Lucky's image with gradient glow effect, decorative border, and star badge overlay.",
+  "frontend/src/components/ShowcaseSection.tsx": "Showcase section with three bilingual cards (thoughts, experiences, interests) using icons and hover effects to display content categories.",
+  "frontend/src/components/WelcomeSection.tsx": "Welcome section with two-column layout displaying profile photo and Hindi introduction text about Lucky's digital world.",
+  "frontend/src/hooks/useActor.ts": "React hook managing backend actor creation with Internet Identity authentication, query caching, and automatic refetching on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React hook and provider for Internet Identity authentication on ICP, managing login state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file for future backend integration; currently no backend queries are implemented as the site uses static content.",
+  "frontend/src/index.css": "Global CSS with Tailwind configuration defining a warm Indian-inspired color palette (marigold/saffron/cream), custom fonts (Poppins and Noto Sans Devanagari), and utility classes for warm colors.",
+  "frontend/src/main.tsx": "Application entry point that renders the root React component wrapped with QueryClientProvider and InternetIdentityProvider for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with custom warm color palette (oklch color space), Indian-inspired design tokens, custom fonts, and animation utilities.",
+  "project_state.json": "Project metadata defining Lucky's bilingual personal website with Hindi/English content, tracking implemented features (hero section, welcome messages, profile photo area) and pending feature requests."
+}
